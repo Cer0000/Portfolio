@@ -88,6 +88,15 @@ main {
     width: 150px;
 }
 
+.card{
+    transition: .2s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: .2s;
+}
+
 html.sr .img-anim, .inicio, .content-presentacion{
     visibility: hidden;
 }
